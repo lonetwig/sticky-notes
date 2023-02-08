@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "noEmitOnError": true,
+        "strict": true,
+        "target": "ES6"
+    },
+    "files": ["src/index.ts","src/fct.ts","src/display.ts"]
+}

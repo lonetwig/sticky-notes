@@ -1,0 +1,23 @@
+# Compiled output
+dist/
+lib/
+*.js
+*.js.map
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# .env files
+.env
+
+# Serverless directories
+.serverless/
+
+# TypeScript test fixtures
+__tests__/fixtures/
