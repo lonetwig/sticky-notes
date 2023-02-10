@@ -2,7 +2,8 @@ import { addNote } from './fct.js';
 
 //all notes----------------------------------------------
 
-const getNotes:note[]|null=JSON.parse(localStorage.getItem('notes') as string).notes
+const data=localStorage.getItem('notes') as string|null
+const getNotes:note[]|null=data?JSON.parse(data).notes:null
 
 export interface note{
     name:string
